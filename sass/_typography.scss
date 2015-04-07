@@ -1,0 +1,21 @@
+@import "typography/manifest";
+
+header h1{
+  font: $display-font;
+}
+
+.navLinks {
+  font: $main-font;
+}
+
+.backImage {
+  position: relative;
+  z-index: -100;
+}
+
+.imageText {
+  position: absolute;
+  top: 5em;
+  color: white;
+  left: 3em;
+}
