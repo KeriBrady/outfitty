@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-/* GET feed page. */
-router.get('/', function(req, res, next) {
+// GET feed page
+router.get('/feed', function(req, res, next) {
   res.render('feed', { title: 'Express' });
 });
 
